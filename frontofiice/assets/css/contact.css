@@ -1,0 +1,59 @@
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+	font-weight:600;
+	letter-spacing:0.1em;
+}
+
+.navbar-brand  span{
+	color: #92b916;;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 100%;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+   font-family: 'Gothic A1', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:#92b916;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #92b916;
+}
+.dropdown-item:hover{background-color:#92b916;color:#fff;}
+
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+
+/***************** start banner **********/
+.banner {
+	position: relative;
+	background: url('../img/Velorution-Bab-Bhar.jpg');
+	background-size:cover;
+	padding-top: 600px;
+	height: 650px;
+	padding: 20px 0;
+}
+
+/************************formulaire******************/
+.formulaire {
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 50px 10px 80px;
+}
+.formulaire  button {
+	width: 100%;
+}
+
+/*********footer-copy********************/
+.footer-copy	{
+	background-color:#779b01;
+	color: #fff;
+	overflow: hidden;
+	padding: 30px 0;
+}
